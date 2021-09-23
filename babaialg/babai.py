@@ -46,3 +46,7 @@ print(np.linalg.det(B))
 #L = Lattice(B)
 #w = np.array([53172,81743])
 #print(babai(L,w))
+
+
+### Bug: line 32 breaks the program. taking the nth root of that expression makes
+### python unhappy. not sure why, need to investigate.
